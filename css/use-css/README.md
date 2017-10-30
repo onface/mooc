@@ -43,4 +43,11 @@
 }
 ```
 
+## 小结
+
+还可以使用 [HTML style](http://www.w3school.com.cn/tags/att_standard_style.asp) 属性来使用CSS。但如果是正式的工作环境中，都是通过 `<link />` 的方式使用CSS，只有使用JS操作样式时候才会用到 `<style>color:red;</style>` 和 `style="color:red;"`
+
+在学习阶段可以使用 `<style>color:red;</style>` 的方式使用CSS
+
+
 **下一节：[选择符与结构](../selector/README.md)**

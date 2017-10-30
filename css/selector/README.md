@@ -14,10 +14,13 @@
 
 ## 测试
 
-1. [./test/class.html](./test/class.html)
-2. [./test/priority.html](./test/priority.html)
+1. class选择器 [./test/class.html](./test/class.html)
+2. 权重 [./test/priority.html](./test/priority.html)
+3. 继承 [./test/inherit.html](./test/inherit.html)
+4. 显示方式 [./test/display.html](./text/display.html)
+5. 伪类伪元素 [./test/pseudo.html](./test/pseudo.html)
 
-主要选择器全部出习题
-继承
-权重
-如何用CSS隐藏一个 dom 元素
+
+## 如何记忆哪些属性是继承的
+
+## 小结
