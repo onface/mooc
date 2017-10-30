@@ -1,11 +1,14 @@
 # MOOC
 
-> 教材 => 指导 => 习题 => 实战
+1. 根据**教材**学习
+2. 学习过程中遇到问题由导师**引导掌握解决问题的方法**
+3. 通过**习题**验收知识点是否掌握
+4. 以**实战项目**验收学习成果。
 
 <table>
     <tr>
         <td>
-            <img width="200" height="200" src="./media/css/logo.svg" />
+            <a href="./css/README.md" ><img width="200" height="200" src="./media/css/logo.svg" /></a>
         </td>
         <td>
             <img width="200" height="200" src="./media/js/logo.svg" />
