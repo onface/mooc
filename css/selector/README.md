@@ -61,3 +61,25 @@ CSS 选择器是CSS的基础，建议花一些将[MDN:CSS选择器](https://deve
 对所有的选择器有个大概印象后，工作中遇到了问题可以在脑海快速索引，避免临时抱佛脚在文档中慢慢查找。
 
 display 的内容很实用，但是只是很浅的介绍。后续章节会专门提到。
+
+对于CSS要切记一点：尽量在选择器中只出现单个class以降低css权重
+
+```html
+<style>
+/* 这种命名方式不仅权重低，还使得css选择器清晰 */
+.box {}
+.box-hd {}
+.box-hd-title {}
+.box-hd-link {}
+.box-bd {}
+</style>
+<div class="box">
+    <div class="box-hd">
+        <div class="box-hd-title">title</div>
+        <a href="#" class="box-hd-link">link</a>
+    </div>
+    <div class="box-bd">
+
+    </div>
+</div>
+```
