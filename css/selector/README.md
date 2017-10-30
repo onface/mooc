@@ -17,7 +17,7 @@
 1. class选择器 [./test/class.html](./test/class.html)
 2. 权重 [./test/priority.html](./test/priority.html)
 3. 继承 [./test/inherit.html](./test/inherit.html)
-4. 显示方式 [./test/display.html](./text/display.html)
+4. 显示方式 [./test/display.html](./test/display.html)
 5. 伪类伪元素 [./test/pseudo.html](./test/pseudo.html)
 
 

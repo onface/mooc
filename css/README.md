@@ -1,5 +1,9 @@
 # CSS
 
+下载[项目文件](https://github.com/onface/mooc.git)到本地，便于本地修改文件完成每一章的测试
+
+比如 class 的测试 `/css/selector/test/class.html`
+
 ## 教材
 
 | [CSS权威指南](https://github.com/onface/mooc/issues/1) |
