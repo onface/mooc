@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test: priority</title>
+<style>
+.demo {
+    color:red;
+}
+</style>
+<style>
+html .some {
+    color:orange;
+}
+</style>
+</head>
+<body>
+<div class="demo">
+    abc
+</div>
+1. 不修改
+<pre>
+    .demo {
+        color:red;
+    }
+</pre>
+和不改变body中任何代码的情况下让 abc 变成灰色
+
+<div class="some">
+    123
+</div>
+
+2. 不修改
+<pre>
+html .some {
+    color:orange;
+}
+</pre>
+和不改变body中任何代码的情况下让 123 变成灰色
+
+<script src="../../../media/lib/jquery.min.js" ></script>
+<script src="./priority.js"></script>
+</body>
+</html>
