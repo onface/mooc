@@ -23,4 +23,41 @@
 
 ## 如何记忆哪些属性是继承的
 
+CSS 中的 `color` `font-size` 等属性默认都是继承自父元素。那么为什么他们会继承呢。
+
+因为 `color` `font-size` 等属性如果不继承，书写CSS会非常麻烦。比如不继承需要这样写：
+
+````html
+<div class="demo">
+    demo
+    <div class="demo-title">
+        demo-title
+    </div>
+</div>
+````
+````css
+.demo {
+    color:red;
+}
+.demo-title {
+    color:red;
+}
+````
+
+非常的麻烦，所以创造CSS的人将某些适合继承的属性默认值设置为继承。
+
+常见的可继承的CSS属性有
+
+```
+color font text-align  text-indent
+```
+
+> 对于某些CSS知识，可以站在多个角度去思考。能帮助记忆和找到适合的使用场景。
+
 ## 小结
+
+CSS 选择器是CSS的基础，建议花一些将[MDN:CSS选择器](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference#选择器)简单的记忆一遍。
+
+对所有的选择器有个大概印象后，工作中遇到了问题可以在脑海快速索引，避免临时抱佛脚在文档中慢慢查找。
+
+display 的内容很实用，但是只是很浅的介绍。后续章节会专门提到。
