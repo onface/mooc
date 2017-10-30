@@ -39,4 +39,14 @@ $(function () {
             $('body').append('<h2 class="tip2" style="color:green" >2)通过测试</h2>')
         }
     })
+
+    var text = $('.some').get(0)
+    var before = getComputedStyle(text, ':before')
+    var after = getComputedStyle(text, ':after')
+    if (before.content === '"1"' && after.content === '"3"') {
+        $('body').append('<h2 style="color:green" >3)通过测试</h2>')
+    }
+    else {
+        $('body').append('<h2 style="color:red;" >3)未通过，请修改代码后刷新重试</h2>')
+    }
 })
