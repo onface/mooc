@@ -2,7 +2,7 @@
 
 ## 教材
 
-| [CSS权威指南](./CSS-The-definitive-Guide.pdf) |
+| [CSS权威指南](https://github.com/onface/mooc/issues/1) |
 | :------------- |
 | ![](../media/css/CSS-The-definitive-Guide.jpg) |
 
