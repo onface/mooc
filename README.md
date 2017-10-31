@@ -7,7 +7,7 @@
 
 <table style="text-align:center;" >
     <tr>
-        <td>[CSS](./css/README.md)</td>
+        <td><a href="./css/README.md">CSS</a></td>
         <td>JavaScript</td>
         <td>React</td>
     </tr>
